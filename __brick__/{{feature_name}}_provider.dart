@@ -6,12 +6,12 @@ import 'package:{{project_name}}/infrastructure/{{feature_name}}/imp_{{feature_n
 
 @injectable
 class {{feature_name.pascalCase()}}Provider extends EntityProvider {
-final Imp{{feature_name.pascalCase()}}Repository repository;
+  final Imp{{feature_name.pascalCase()}}Repository repository;
 
-{{feature_name.pascalCase()}}Provider(this.repository);
+  {{feature_name.pascalCase()}}Provider(this.repository);
 
-@override
-void handleNavigationAfterOperation(BuildContext context, {{feature_name.pascalCase()}} entity) {
-// Navigation logic here
-}
+  @override
+  void handleNavigationAfterOperation(BuildContext context, {{feature_name.pascalCase()}} entity) {
+    // Navigation logic here
+  }
 }
