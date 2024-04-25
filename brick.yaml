@@ -12,10 +12,3 @@ vars:
     type: string
     description: The name of your project
     prompt: What is your project name?
-#files:
-#  - path: lib/domain/{{feature_name}}/entities/{{feature_name}}.dart
-#    template: entity.dart
-#  - path: lib/infrastructure/{{feature_name}}/imp_{{feature_name}}_repository.dart
-#    template: repository.dart
-#  - path: lib/application/{{feature_name}}/{{feature_name}}_provider.dart
-#    template: {{feature_name}}_provider.dart
